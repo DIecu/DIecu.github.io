@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet');
+
+*,
+:after,
+:before {
+    margin:0.5px;
+    
+    padding: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: none;
+  
+    
+}
+html {
+    font-size: 100%; /* 100% = 16px = 1rem*/
+}
+h1, h2, h3 {
+    font-family: 'Kode Mono', sans-serif;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.4rem;
+    font-family: 'Kode Mono', sans-serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+
+}
+
+h4 {
+    font-size: 1.2rem;
+
+}
+
+p {
+    font-family: 'Kode Mono', sans-serif;
+    font-size: 15px;
+    font-weight: 350; 
+    text-decoration: none;
+}
+
+h4 {
+    font-family: "Kode Mono", sans-serif;
+    font-weight: 200;
+    font-size: 0.7rem;
+    padding-left: 3%;
+    font-weight: 350;
+
+
+}
+h5 {
+    font-size: 0.4rem;
+    padding-left: 1%;
+}
+
+ul {
+    font-family: "Kode Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 650;
+
+}
+
+ul.description{
+    font-family: "Kode Mono", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
+
+section { 
+    columns: 2;
+    padding: 16px 32px;
+    column-gap: 32px;
+    background: #fdfcfc;
+    background-size: cover;
+    background-position: 70% 30%;
+    
+
+}
+
+section img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 32px;
+    animation: reveal linear both; 
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+   
+}
+h1 { 
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 200px;
+    z-index: 1;
+
+}
+
+body {
+   /* background-image: url();*/
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    background: #ffffff;
+    /*background-image: url(images/pisumabecedario.png);
+    background-position: center center;
+    background-size: cover;
+    height:500px;
+    padding: 10px 200px; */
+}
+
+.her {
+   
+    background: none;
+    background-position: center;
+   
+
+}
+
+@media screen and (min-width: 640px) { /* declaración de media query: de 640px hacia arriba */
+    .flex-container {
+        display:grid;
+    }
+}
+.content {
+    flex: none;
+    border-radius: 15px;
+    background: #ffffff 80%;
+    
+}
+
+.columna1 {
+    flex: none;
+    border-radius: 5px;
+    background:#48b41d; 
+    background-image: url(images/pisum__!.png);
+;
+}
+
+.footer {
+    background: #f9f9f9;
+}
+
+
+
+
+
+/* #progress {
+    position: fixed;
+    top: o; 
+    width: 0%;
+    background: blue;
+    height: 1rem;
+    animation: progress-grow auto linear;
+    animation-timeline: scroll(root block); 
+
+}  */
+
+/* @keyframes progress-grow { 
+    from { width: 0%;}
+    to {width: 100%;} 
+
+    
+
+}*/
+@keyframes reveal { 
+    from { 
+        opacity: 0;
+        translate: 0 100px;
+        scale: .5;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
+
+@keyframes enhance-header {
+    to { 
+        background: rgba(rgb(229, 228, 228), rgb(240, 242, 240), rgb(235, 235, 236), alpha);
+        backdrop-filter: blur(5px);
+        font-size: 18px;
+        color: rgb(8, 8, 8);
+    }
+}
+
+.img-responsive-li {
+    max-width: 90%;
+    height: auto;
+  }
+
+
+.img-responsive {
+    max-width: 60%;
+    height: auto;
+  }
+
+ 

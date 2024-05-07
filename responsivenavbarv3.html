@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página responsive y navbar con overlay con HTML y CSS</title>
+    <link rel="stylesheet" href="estiloresponsivev3.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="navbar">
+                <div class="navbar-logo"><img src="images/dragon.png" width="60" alt=""></div> <!-- Logo de la pagina -->
+                <div class="button_container" id="toggle"> <!-- Menu hamburguesa -->
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </div>
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul> <!-- Enlaces de navegación -->
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        <section class="hero cielo">
+            <h2>Películas y series ilimitadas y mucho más</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat possimus laudantium natus explicabo at nostrum?</p>
+            <div class="botonform2 animate__animated animate__zoomIn">Call-To-Action</div>
+            <div class="derecha">
+                <div class="css-button-3d--sky">Ir a contacto</div>
+            </div>
+        </section>
+        <div class="flex-container wrapper">
+            <section class="content">
+                <h2>Servicio 1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis?</p>
+            </section>
+            <aside class="sidebar">
+                <ul class="texto-centrado celeste">
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ul>
+            </aside>
+        </div>
+        <div class="flex-container wrapper">
+            <section class="columna1">
+                <h2>Columna 50%</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, beatae?</p>
+            </section>
+            <aside class="columna2">
+                <h2>Columna 50%</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, adipisci!</p>
+            </aside>
+        </div>
+        <section class="hero">
+            <h2>Un gatito</h2>
+            <img src="images/gatos.png" class="img-responsive triangulo">
+        </section>
+        <footer class="footer">
+            <h3>Desarrollo Web 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, officiis.</p>
+        </footer>
+    </main>
+    <script src="scriptv2.js"></script>
+</body>
+</html>
