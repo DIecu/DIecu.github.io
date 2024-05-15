@@ -133,9 +133,11 @@ body {
 
 }
 
-@media screen and (min-width: 640px) { /* declaración de media query: de 640px hacia arriba */
+@media screen and (max-width: 640px) { /* declaración de media query: de 640px hacia arriba */
     .flex-container {
         display: grid;
+    }
+    section {columns: 1; 
     }
 }
 .content {

@@ -41,7 +41,7 @@ h4 {
 
 }
 h5 {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     padding-left: 1%;
 }
 
@@ -120,7 +120,7 @@ main {
 }
 
 
-@media screen and (min-width: 1000px) { /* declaración de media query: de 640px hacia arriba */
+@media screen and (min-width: 1000px) { 
     .flex-container {
         display: flex;
     }
